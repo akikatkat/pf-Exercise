@@ -2,3 +2,12 @@ body{
     background-color: bisque;
     font-family: 'Poppins', sans-serif;
 }
+
+header{
+    background-color: darksalmon;
+}
+
+h1{
+    background-color: antiquewhite;
+    color: crimson;
+}
