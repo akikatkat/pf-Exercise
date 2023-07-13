@@ -1,0 +1,35 @@
+/*
+CSS SPECIFICITY > WHICH CODE WILL BE GIVEN IMPORTANCE
+1. ORDER
+2. Embedded vs External Stylesheet (Embedded wins)
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+body{
+   background-color:antiquewhite;
+   font-family: 'Poppins', sans-serif;
+}
+
+header{
+   background-color: darksalmon;
+}
+
+h1{
+   background-color: darksalmon;
+   color: crimson;
+   display: inline;
+   height: 50px;
+   width: 50px;   
+}
+
+ul{
+  background-color: brown;
+
+}
+
+li {
+   background-color:darksalmon;
+}
