@@ -6,7 +6,7 @@ CSS SPECIFICITY > WHICH CODE WILL BE GIVEN IMPORTANCE
 *{
     margin: 0;
     padding: 0;
-    box-sizing: boder-box;
+    box-sizing: border-box;
 }
 body{
    background-color:antiquewhite;
@@ -19,14 +19,14 @@ header{
 
 h1{
    background-color: darksalmon;
-   color: crimson;
+   color: darksalmon;
    display: inline;
    height: 50px;
    width: 50px;   
 }
 
 ul{
-  background-color: brown;
+  background-color: darksalmon;
 
 }
 
