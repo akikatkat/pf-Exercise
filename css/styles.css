@@ -36,6 +36,26 @@ li {
 }
 
 .header{
+   position: relative;
    height: 100vh;
+   background-image: url('../images/pexels-miriam-espacio-1881621.jpg');
+   background-size: cover;
+}
+.header__headings{
+   position: absolute;
+   /* background-color: darksalmon; */
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #fff;
+}
+
+img{
+   position: absolute;
+   background-color: crimson;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
    
+
 }
