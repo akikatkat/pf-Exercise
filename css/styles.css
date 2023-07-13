@@ -6,30 +6,36 @@ CSS SPECIFICITY > WHICH CODE WILL BE GIVEN IMPORTANCE
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   box-sizing: border-box;
 }
 body{
-   background-color:antiquewhite;
+   /*background-color:antiquewhite; */
    font-family: 'Poppins', sans-serif;
 }
 
 header{
-   background-color: darksalmon;
+   /*background-color: darksalmon;*/
 }
 
 h1{
-   background-color: darksalmon;
+   /* background-color: darksalmon;
    color: darksalmon;
-   display: inline;
-   height: 50px;
-   width: 50px;   
+   display: inline-block;
+   height: 100px;
+   width: 200px;   
+   padding: 20px;*/
 }
 
 ul{
-  background-color: darksalmon;
+  /*background-color: darksalmon;*/
 
 }
 
 li {
-   background-color:darksalmon;
+   /*background-color:darksalmon;*/
+}
+
+.header{
+   height: 100vh;
+   
 }
