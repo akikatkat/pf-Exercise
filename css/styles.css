@@ -65,7 +65,7 @@ a{
    font-size: 18px;
 }
 
-.header__headings{
+.header__heading{
    position: absolute;
    /* background-color: darksalmon; */
    top: 50%;
@@ -75,12 +75,32 @@ a{
 }
 
 .header__heading--1{
-   font-size: 60px;
+   font-size: 70px;
    margin-top: 10px;
 }
 
 /* ***********************************************ABOUT SECTION******************************************** */
+.about{
+   height: 80vh;
+   background-color: #1E1E1E;
+   color: #fff;
+}
 
+       
+.about__heading{
+   width: 50%;
+   text-align: center;
+   margin: auto;
+}
+
+.about__heading--h2{
+   font-size: 60px;
+   padding-top: 6rem;
+}
+
+.about__heading--p{
+   text-align: center;
+}
 
 /* ***********************************************PORFOLIO SECTION******************************************** */
 
