@@ -3,44 +3,75 @@ CSS SPECIFICITY > WHICH CODE WILL BE GIVEN IMPORTANCE
 1. ORDER
 2. Embedded vs External Stylesheet (Embedded wins)
 */
+
 *{
     margin: 0;
     padding: 0;
-   box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+/* ELEMENT SELECTORS - GENERAL STYLINGS */
+
 body{
-   /*background-color:antiquewhite; */
+   /* background-color:antiquewhite;  */
    font-family: 'Poppins', sans-serif;
 }
 
-header{
-   /*background-color: darksalmon;*/
+/* header{
+  background-color: darksalmon;
 }
 
 h1{
-   /* background-color: darksalmon;
+    background-color: darksalmon;
    color: darksalmon;
    display: inline-block;
    height: 100px;
    width: 200px;   
-   padding: 20px;*/
+   padding: 20px;
 }
 
 ul{
-  /*background-color: darksalmon;*/
+  background-color: darksalmon;
 
 }
 
 li {
-   /*background-color:darksalmon;*/
-}
+   background-color:darksalmon;
+}  */
 
+/* CUSTOM CLASSNAME SELECTOR */
+
+/* ***********************************************HEADER SECTION******************************************** */
 .header{
    position: relative;
    height: 100vh;
    background-image: url('../images/pexels-miriam-espacio-1881621.jpg');
    background-size: cover;
 }
+.header__nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 3% 7%;
+}
+
+/* .header__nav ul{
+   float: right;
+} */
+
+.header__nav ul li{
+   /* background-color: aqua; */
+   display: inline-block;
+   margin: 10px 20px;
+
+}
+
+.header__nav ul li a{
+   color: white;
+   text-decoration: none;
+   font-size: 18px;
+}
+
 .header__headings{
    position: absolute;
    /* background-color: darksalmon; */
@@ -49,13 +80,13 @@ li {
    transform: translate(-50%, -50%);
    color: #fff;
 }
+/* ***********************************************ABOUT SECTION******************************************** */
 
-img{
-   position: absolute;
-   background-color: crimson;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   
 
-}
+/* ***********************************************PORFOLIO SECTION******************************************** */
+
+
+/* ***********************************************CONTACT SECTION******************************************** */
+
+
+/* ***********************************************FOOTER SECTION******************************************** */
