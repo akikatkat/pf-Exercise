@@ -17,28 +17,6 @@ body{
    font-family: 'Poppins', sans-serif;
 }
 
-/* header{
-  background-color: darksalmon;
-}
-
-h1{
-    background-color: darksalmon;
-   color: darksalmon;
-   display: inline-block;
-   height: 100px;
-   width: 200px;   
-   padding: 20px;
-}
-
-ul{
-  background-color: darksalmon;
-
-}
-
-li {
-   background-color:darksalmon;
-}  */
-
 /* CUSTOM CLASSNAME SELECTOR */
 
 /* ***********************************************HEADER SECTION******************************************** */
@@ -56,12 +34,9 @@ li {
    padding: 3% 7%;
 }
 
-/* .header__nav ul{
-   float: right;
-} */
+
 
 .header__nav ul li{
-   /* background-color: aqua; */
    display: inline-block;
    margin: 10px 20px;
 
