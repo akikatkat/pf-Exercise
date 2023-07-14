@@ -17,6 +17,10 @@ body{
    font-family: 'Poppins', sans-serif;
 }
 
+a{
+   text-decoration: none;
+}
+
 /* CUSTOM CLASSNAME SELECTOR */
 
 /* ***********************************************HEADER SECTION******************************************** */
@@ -26,6 +30,16 @@ body{
    background-image: linear-gradient(rgba(3,4,7, 0.48),rgba(5,10,30, 0.48)),
    url('../images/pexels-miriam-espacio-1881621.jpg');
    background-size: cover;
+}
+
+.header__brand{
+   color:#fff;
+   font-size: 45px;
+   font-weight: 700;
+}
+
+.header__brand--span{
+   color:#20E700;
 }
 .header__nav{
    display: flex;
