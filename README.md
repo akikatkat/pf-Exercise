@@ -1,2 +1,6 @@
-# PORTFOLIO EXERCISE
+# PORTFOLIO EXERCISE:
+
+## Description of the Project:
+
+### Technologies
 
