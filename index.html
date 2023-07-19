@@ -3,9 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="RBSL portfolio site">
     <title>RBSL PORTFOLIO SITE</title>
 
     <!-- EXTERNAL STYLES RESOURCES -->
+
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!--GOOGLE FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -15,92 +22,139 @@
 
     <!-- CUSTOM STYLES -->
     <link rel="stylesheet" href="css/styles.css"> <!--EXTERNAL STYLESHEET -->
-    <!-- EMBEDDED STYLESHEET -->
-    <style> 
-        /* h1{color: darksalmon;
-        }
-        h1{color: crimson;
-        } */
-    </style>
+    
+    
 </head>
 
 <body>
 
 <!-- Header -->
-<header>
+<header id="home-section">
     <div class="header">
-      <nav class="header__nav">
-        <a href="#" class="header__brand">PORT<span class="header__brand--span">FOLIO</span></a>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="https://web.facebook.com/katrinacarla.diazii" target="_blank" rel="noopener">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
-    
-        </ul>
-    </nav>
-     <div class="header__heading">
-          <h1 class="header__heading--1">Katrina Carla Diaz</h1>
-          <h2>Freelance Front-end Web Developer</h2>
+        <nav class="fixed-top header__nav navbar navbar-expand-lg bg-dark navbar-dark"
+            style="background-color:rgba(36, 35, 35, 0.376) !important;">
+            <div class="container-fluid">
+                <a href="#" class="header__brand navbar-brand">PORT<span
+                        class="header__brand--span">FOLIO</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>       
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a href="#home-section" >Home</a></li>
+                        <li class="nav-item"><a href="#about-section">About</a></li>
+                        <li class="nav-item"><a href="#portfolio-section"  rel="noopener">Portfolio</a></li>
+                        <li class="nav-item"><a href="#contact-section">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+            
+
+        <div class="header__image--sm">
+            <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/344272897_613182027360709_4197612131432544261_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_eui2=AeF6e60szYw3myiMyWdlBEJQHWj7sou3oqAdaPuyi7eioNpDEOu4SuanzKtpyuM0s_ty093k5mpwDLVRkhxfvjGO&_nc_ohc=q_XqHwj4fuEAX-ERqtj&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&oh=00_AfC7foxASLxFRGADxfOJJO1G_ghaFupnHZl1njzCsrLUtg&oe=64BD17F6"
+                alt="header image small" loading="lazy">
         </div>
-    </div> 
+        <!-- Heading text Desktop -->
+        <div class="header__heading--desktop">
+            <h1 class="header__heading--h1">Katrina Carla Diaz</h1>
+            <h2>Freelance Front-end Web Developer</h2>
+        </div>
+
+        <!-- Heading text for Mobile -->
+        <div class="header__heading--mobile">
+            <h1 class="header__heading--h1">WEB DEVELOPER</h1>
+            <h2 class="header__heading--h2">Hi, I am <span class="header__heading--span1">Katrina Carla Diaz</span>
+                
+                <span class="header__heading--span2">Let's Connect</span>
+            </h2>
+        </div>
+
+    </div>
 </header>
 
 <!-- About -->
-<section>
+<section id="about-section">
     <div class="about">
-       
-     <div class="about__heading">
-         <h2 class="about__heading--h2">ABOUT ME</h2>
-         <p class="about__heading--p">I am a cartoonist, a softball trainer and 2nd Year College taking BSCS (Bachelor of Science of Computer Science).</p>
+        <div class="about__img">
+            <img src="https://scontent.fdvo2-2.fna.fbcdn.net/v/t39.30808-6/349156345_798665235205977_8974294816162718120_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=174925&_nc_eui2=AeHnr6ZEu2LEwGZ0Y9JZLTGchEmqldEizASESaqV0SLMBAikvqtbNpZBMKal8-8zZj0_nDOMHLckIVTR8Dt_xaKd&_nc_ohc=lho7a8bH-0sAX_Pdyso&_nc_zt=23&_nc_ht=scontent.fdvo2-2.fna&oh=00_AfDNYK6HF-YS3iu0lGywEVNByZCh6dmrjrQsS8aw-NXryQ&oe=64BD242C" alt="about mobile image" loading="lazy">
+        </div>
+        <div class="about__heading">
+            <h2 class="about__heading--h2">ABOUT ME</h2>
+            <p class="about__heading--paragraph">I am a cartoonist, a softball trainer and 2nd Year College taking BSCS (Bachelor of Science of Computer Science).</p>
+        </div>
+        <div class="about__skills">
+            <h3 class="about__skills-h3 about__skills-h3--1">Skills</h3>
+            <h3 class="about__skills-h3 about__skills-h3--2">Experience</h3>
+            <h3 class="about__skills-h3 about__skills-h3--3">Education</h3>
+        </div>
+        <div class="about__content">
+            <h3 class="about__content-h3">HTML & CSS</h3>
+            <p class="about__paragraph">Build websites with HTML & CSS</p>
+        </div>
 
-     </div>
     </div>
-
 </section>
-
-
 <!-- Portfolio -->
-<section>
+<section id="portfolio-section">
     <div class="portfolio">
-        <h2 class="portfolio__heading--h2">MY PORPOLIO</h2>
+        <h2 class="portfolio__heading--h2">MY PORTFOLIO</h2>
         <div class="portfolio__container">
-            <div class="portfolio__img"><img src="https://github.com/KG-2023/Activity-Images-2023/blob/main/pexels-dominika-roseclay-2023384.jpg?raw=true" alt="image of a dog"></div>
-            <div class="portfolio__img"><img src="https://github.com/KG-2023/Activity-Images-2023/blob/main/pexels-kat-smith-551628.jpg?raw=true" alt="smiling dog"></div>
-            <div class="portfolio__img"><img src="https://github.com/KG-2023/Activity-Images-2023/blob/main/pexels-fauxels-3184418.jpg?raw=true" alt="team of people"></div>
+            <div class="portfolio__img"><img loading="lazy"
+                    src="https://images.pexels.com/photos/3408353/pexels-photo-3408353.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image of a Japan Mt. Fuji captured by Tomas Malik"></div>
+            <div class="portfolio__img"><img loading="lazy"
+                    src="https://images.pexels.com/photos/2385210/pexels-photo-2385210.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Tokyo, Japan captured by Aleksander Pasaric"></div>
+            <div class="portfolio__img"><img loading="lazy"
+                    src="https://images.pexels.com/photos/5745029/pexels-photo-5745029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    alt="Latterns captured by Ryutaro Tsukata"></div>
 
         </div>
         <a href="#" class="portfolio__btn">See More</a>
     </div>
 </section>
 <!-- Contact  -->
-<section>
+<section id="contact-section">
     <div class="contact">
         <div class="contact__container">
-          <div class="contact__row">
-            <div class="contact__row--left">
-                <h2 class="contact__heading--h2">Contact Me</h2>
-                <p><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>katrinacarladiaz@gmail.com</p>
-                <p><i class="fa-sharp fa-solid fa-phone"></i>09384491703</p>
-                <div class="contact__left--icons">
-                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <div class="contact__row">
+                <div class="contact__row--left">
+                    <h2 class="contact__heading--h2">Contact Me</h2>
+                    <p><i class="fa-sharp fa-solid fa-envelope-circle-check"></i>katrinacarladiaz@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>+63-938-449-1703</p>
+                    <div class="contact__left--icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="downloads/sample.pdf" download class="contact__btn contact__btn--1">Download CV</a>
                 </div>
-                <a href="downloads/sample.pdf" download class="contact__btn contact__btn--1">Download CV</a>
+                <div class="contact__row--right">
+                    <form action="#">
+                        <input type="text" placeholder="Your name">
+                        <input type="email" placeholder="Your email">
+                        <textarea name="#" id="#" cols="30" rows="10" placeholder="Your Message">
+                    </textarea>
+                        <button type="submit" class="contact__btn contact__btn--2">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="contact__row--right">
-                <form action="#">
-                    <input type="text" placeholder="Your name">
-                    <input type="email" placeholder="Your email">
-                    <textarea name="#" id="#" cols="30" rows="10" placeholder="Your Message"></textarea>
-                </form>
-            </div>
-          </div>
         </div>
     </div>
 </section>
 
 <!-- Footer  -->
+<footer>
+    <p>Copyright 2023 &copy; Katrina Carla Diaz</p>
+</footer>
+
+<!--BOOTSTRAP SCRIPTS-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+    crossorigin="anonymous"></script>
 
 </body>
 
